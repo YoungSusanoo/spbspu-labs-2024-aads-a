@@ -2,8 +2,8 @@
 
 #include <queue.hpp>
 
-#include "stack.hpp"
-#include "expressionTokens.hpp"
+#include <stack.hpp>
+#include <calc/expressionTokens.hpp>
 
 void zhalilov::infixToPostfix(Queue< InfixToken > infix, Queue< PostfixToken > &postfix)
 {

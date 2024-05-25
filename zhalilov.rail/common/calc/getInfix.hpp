@@ -5,8 +5,8 @@
 
 #include <queue.hpp>
 
-#include "expressionTokens.hpp"
-#include "stack.hpp"
+#include <calc/expressionTokens.hpp>
+#include <stack.hpp>
 
 namespace zhalilov
 {

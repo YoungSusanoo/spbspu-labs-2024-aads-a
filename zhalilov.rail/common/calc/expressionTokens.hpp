@@ -1,10 +1,10 @@
 #ifndef EXPRESSIONTOKENS_HPP
 #define EXPRESSIONTOKENS_HPP
 
-#include "primaryType.hpp"
-#include "bracket.hpp"
-#include "operand.hpp"
-#include "binaryOperator.hpp"
+#include <calc/primaryType.hpp>
+#include <calc/bracket.hpp>
+#include <calc/operand.hpp>
+#include <calc/binaryOperator.hpp>
 
 namespace zhalilov
 {

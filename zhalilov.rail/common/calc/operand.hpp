@@ -1,8 +1,6 @@
 #ifndef OPERAND_HPP
 #define OPERAND_HPP
 
-#include "primaryType.hpp"
-
 namespace zhalilov
 {
   class Operand

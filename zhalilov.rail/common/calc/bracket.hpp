@@ -1,7 +1,7 @@
 #ifndef BRACKET_HPP
 #define BRACKET_HPP
 
-#include "primaryType.hpp"
+#include <calc/primaryType.hpp>
 
 namespace zhalilov
 {
