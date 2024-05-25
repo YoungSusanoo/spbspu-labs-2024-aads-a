@@ -4,12 +4,12 @@
 #include <iosfwd>
 
 #include <tree/twoThreeTree.hpp>
-#include <list/list.hpp>
 #include <calc/expressionTokens.hpp>
+#include <queue.hpp>
 
 namespace zhalilov
 {
-  using modulesMap = TwoThree< std::pair< std::string, List< PostfixToken > > >;
+  using modulesMap = TwoThree< std::string, Queue< PostfixToken > >;
 
   void calc(const modulesMap &, std::ostream &historyOut, std::istream &, std::ostream &);
 
