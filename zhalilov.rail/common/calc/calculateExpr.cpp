@@ -1,10 +1,11 @@
 #include "calculateExpr.hpp"
 
-#include <calc/expressionTokens.hpp>
-#include <calc/primaryType.hpp>
-#include <calc/operand.hpp>
-#include <calc/binaryOperator.hpp>
 #include <stack.hpp>
+
+#include "expressionTokens.hpp"
+#include "primaryType.hpp"
+#include "operand.hpp"
+#include "binaryOperator.hpp"
 
 long long zhalilov::calculateExpr(Queue< PostfixToken > expr)
 {
